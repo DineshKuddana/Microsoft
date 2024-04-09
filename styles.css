@@ -1,0 +1,389 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 60px;
+    background-color: black;
+    color: #fff;
+}
+
+.left-section {
+    flex: 1;
+    padding: 30px;
+}
+
+.left-section p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.logo img {
+    max-width: 50px; 
+}
+
+.logo h1 {
+    font-size: 30px;
+    margin-left: 10px; 
+}
+
+.heading-button {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.heading-button h2 {
+    margin-right: 10px;
+}
+
+button {
+    padding: 13px 20px;
+    background-color: #eeeeee;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 20px
+    ;
+}
+
+.right-section {
+    flex: 1;
+}
+
+.right-section img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    margin: 70px 50px 0 90px;
+}
+
+
+
+
+/* Second Section Styling */
+
+.section-two {
+    text-align: center;
+    padding:10px 0 0 0;
+}
+
+.centered-content {
+    margin-bottom: 30px;
+}
+
+.centered-content h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.centered-content p{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.grid-container {
+    padding: 20px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.grid-item img {
+    max-width: 50px; 
+}
+
+.grid-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.grid-item p {
+    font-size: 18px;
+}
+
+
+
+/* Third Section Styling */
+
+
+.section-three {
+    text-align: center;
+    padding: 10px 60px;
+    background-color: rgb(68, 68, 68);
+    margin: 10px 50px 30px 50px;
+}
+
+.small-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-container img {
+    max-width: 50px; 
+    padding: 0 60px;
+}
+
+.small-container p{
+    margin-left: 10px;
+    padding: 10px 50px;
+    color: #fff;
+}
+
+
+.small-container button{
+    margin-left: 0px;
+    padding: 0px 80px;
+}
+
+
+
+
+
+
+
+
+
+/* Fourth Section Styling */
+
+
+.section-four {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.centered-heading {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    flex: 1;
+    text-align: left;
+    margin: auto 20px 0 80px;
+}
+
+.logos-container {
+    display: flex;
+    gap:70px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.logo-item {
+    text-align: center;
+}
+
+.logo-item img {
+    max-width: 100px; 
+}
+
+.right-section {
+    flex: 1;
+    text-align: right;
+}
+
+.right-section img {
+    max-width: 100%;
+    height: 400px;
+    width: 1000px;
+}
+
+
+
+
+/* Fifth Section Styling */
+
+
+.section-five {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: -40px;
+}
+
+.section-five h2{
+    margin-bottom: 30px;
+}
+
+.container-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(88, 88, 249);
+    color: #fff;
+    padding: 10px 60px;
+    width: 1300px;
+    margin-left: 50px;
+    
+}
+
+
+
+.left-content {
+    flex: 1;
+    text-align: left;
+}
+
+.left-content h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.left-content p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.left-content button {
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-sectionn img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    margin-top: 20px;
+}
+
+
+.right-sectionb img{
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    margin-top: 10px;
+
+}
+
+
+
+/* Sixth Section styling */
+
+
+.section-six {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.section-six h2{
+    font-size: 34px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image-item {
+    text-align: center;
+    margin: 0 10px 20px;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image-item p {
+    margin-bottom: 5px;
+}
+
+.image-item button {
+    padding: 7px 17px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+
+/* Seventh Section Styling */
+
+
+
+.section-seven {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #eaeaea;
+}
+
+
+
+.section-seven h2{
+    margin: 30px 0;
+}
+
+.image-row {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image-item {
+    margin: 0 10px;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/* Footer Section Styling */
+
+
+.last-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.images-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image-item {
+    margin: 0 10px;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,443 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+  }
+  
+  .left-section {
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  .left-section p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  .heading-button {
+    display: flex;
+   
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .heading-button h2 {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #eeeeee;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px 10px 0;
+  }
+  
+  .right-section {
+    flex: 1;
+    max-width: 400px; 
+    margin-top: 20px;
+  }
+  
+  .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Second Section Styling */
+
+.section-two {
+    text-align: center;
+    padding: 20px 0; 
+  }
+  
+  .centered-content {
+    margin-bottom: 30px;
+  }
+  
+  .centered-content h2 {
+    font-size: 24px; 
+  }
+  
+  .centered-content p {
+    font-size: 18px; 
+  }
+  
+  .grid-container {
+    padding: 20px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .grid-item img {
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  .grid-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .grid-item p {
+    font-size: 16px; 
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
+  /* Third Section Styling */
+
+.section-three {
+    text-align: center;
+    padding: 20px; 
+    background-color: rgb(68, 68, 68);
+    margin: 10px 20px 30px; 
+  }
+  
+  .small-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  .small-container img {
+    max-width: 100%; 
+    margin-bottom: 20px; 
+  }
+  
+  .small-container p {
+    margin: 0 auto; 
+    max-width: 500px; 
+    color: #fff;
+    padding: 0 20px; 
+    text-align: center; 
+  }
+  
+  .small-container button {
+    padding: 10px 20px; 
+    margin-top: 20px; 
+  }
+
+  
+
+
+
+
+
+
+
+
+
+  /* Fourth Section Styling */
+
+.section-four {
+    text-align: center;
+    padding: 20px 0; 
+  }
+  
+  .centered-heading {
+    margin-bottom: 20px;
+    font-size: 24px; 
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-section {
+    text-align: left;
+    margin: 0 20px; 
+  }
+  
+  .logos-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .logo-item {
+    text-align: center;
+  }
+  
+  .logo-item img {
+    max-width: 100px; 
+  }
+  
+  .right-section {
+    text-align: center; 
+  }
+  
+  .right-section img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; 
+    margin-top: 20px; 
+  }
+  
+
+
+  @media screen and (max-width:768px){
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: auto 40px;
+        justify-content: center;
+        align-items: center;
+      }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Fifth Section Styling */
+
+.section-five {
+  text-align: center;
+  padding: 20px 0; 
+}
+
+.section-five h2 {
+  margin-bottom: 20px; 
+}
+
+.container-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(88, 88, 249);
+  color: #fff;
+  padding: 20px; 
+  max-width: 100%; 
+}
+
+.left-content {
+  /* text-align: left; */
+  margin-bottom: 20px;
+}
+
+.left-content h3 {
+  font-size: 24px; 
+  margin-bottom: 10px;
+}
+
+.left-content p {
+  margin-bottom: 10px;
+  font-size: 18px; 
+}
+
+.left-content button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right-section img {
+  max-width: 100%; 
+  height: auto;
+  margin-top: 20px; 
+  position: relative;
+}
+
+
+@media screen  and (max-width:768px){
+    .container-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(88, 88, 249);
+        color: #fff;
+        padding: 20px; 
+        max-width: 100%; 
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sixth Section styling */
+
+.section-six {
+    text-align: center;
+    padding: 20px 0; 
+  }
+  
+  .section-six h2 {
+    font-size: 28px; 
+    margin-bottom: 20px; 
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 30px;
+  }
+  
+  .image-item {
+    text-align: center;
+    margin-bottom: 20px; 
+    max-width: 250px; 
+  }
+  
+  .image-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .image-item p {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .image-item button {
+    padding: 7px 17px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+  }
+  
+
+
+
+
+
+
+   /* Seventh Section Styling */
+
+   .section-seven {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #eaeaea;
+  }
+
+  .section-seven h2 {
+    margin: 30px 0;
+  }
+
+  .image-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .image-item {
+    margin: 0 10px;
+  }
+
+  .image-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+
+  /* Footer Section Styling */
+
+.last-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.images-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image-item {
+    margin: 0 10px;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+}
